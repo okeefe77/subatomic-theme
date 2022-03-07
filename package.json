@@ -1,0 +1,21 @@
+{
+    "name": "subatomic-theme",
+    "displayName": "subatomic-theme",
+    "description": "A vscode port of the subatomic Emacs theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Subatomic",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Subatomic-color-theme.json"
+            }
+        ]
+    }
+}
